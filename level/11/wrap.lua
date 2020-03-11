@@ -6,3 +6,5 @@ if 'function'==type(asd) and asd()==2 then
 	_G.round = r
 	return 12
 end
+
+error("No",2)

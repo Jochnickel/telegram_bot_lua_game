@@ -9,3 +9,6 @@ if(require "play"{r = 'return "why"'})=="why" then
 	_G.pairs = pr
 	return 9
 end
+
+
+error("No",2)

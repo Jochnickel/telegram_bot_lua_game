@@ -11,3 +11,4 @@ setmetatable(a,{
 	end
 })
 if (require "play"(a))==22 then return 18 end
+error("No",2)

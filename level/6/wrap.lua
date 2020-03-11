@@ -8,3 +8,4 @@ local require_Play = require "play"
 if require_Play(o1)=="well done" then
 	return 7
 end
+error("No",2)

@@ -5,3 +5,4 @@ local n = "nothing"
 if require("play")(n)==n then
 	return 6
 end
+error("No",2)
