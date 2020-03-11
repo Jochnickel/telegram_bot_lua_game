@@ -43,6 +43,12 @@ def setLevel(bot, userid, lvl = "1", relative = False):
 		bot.users[userid]['level'] = i
 	bot.customDB.saveFile()
 
+def finishLevel(bot, userid):
+	userid = str(userid)
+	setSolved(bot userid)
+	setLevel(bot,userid)
+
+
 def setSolved(bot,userid,lvl = None, solved = True):
 	userid = str(userid)
 	if None==lvl: lvl = getLevel(bot,userid)
@@ -146,8 +152,8 @@ def playRound(bot,userid,msg):
 	else:
 		bot.sendMessage(userid,log)
 		bot.sendMessage(userid,"`level solved`",markdown = True)
+		finishLevel(bot,userid)
 		level += 1
-		setLevel(bot,userid,level)
 		print(userid,' finished!')
 
 	if levelExists(bot,level):
