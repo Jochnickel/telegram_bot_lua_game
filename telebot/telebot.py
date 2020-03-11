@@ -25,7 +25,7 @@ class Bot:
 		self.__api = Api(apiKey)
 		self.__users = Users(cb_getFirstAdmin = self.__getFirstAdmin)
 		self.__tickets = Tickets()
-		self.customDB = Database('custom',{})
+		self.customDB = Database('custom','database.db',{})
 		def background():
 			while True:
 				try:

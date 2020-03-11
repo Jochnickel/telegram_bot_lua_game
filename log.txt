@@ -141,3 +141,107 @@ WARNING:root:Traceback (most recent call last):
     msgLevelNotFound(bot,userid)
 NameError: name 'msgLevelNotFound' is not defined
 
+WARNING:root:Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 31, in newUpdates
+    r = json.loads(urllib.request.urlopen('%sbot%s/getUpdates?offset=%s'%(url,self.__token,self.__offset)).read().decode('utf-8'))
+  File "/usr/lib64/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib64/python3.6/urllib/request.py", line 532, in open
+    response = meth(req, response)
+  File "/usr/lib64/python3.6/urllib/request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib64/python3.6/urllib/request.py", line 570, in error
+    return self._call_chain(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 409: Conflict
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telebot.py", line 32, in background
+    for u in self.__api.newUpdates():
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 36, in newUpdates
+    except urllib.error.URLError: raise NetworkError('No Internet Connection')
+telebot.telegram_api.NetworkError: ('N', 'o', ' ', 'I', 'n', 't', 'e', 'r', 'n', 'e', 't', ' ', 'C', 'o', 'n', 'n', 'e', 'c', 't', 'i', 'o', 'n')
+
+WARNING:root:Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 31, in newUpdates
+    r = json.loads(urllib.request.urlopen('%sbot%s/getUpdates?offset=%s'%(url,self.__token,self.__offset)).read().decode('utf-8'))
+  File "/usr/lib64/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib64/python3.6/urllib/request.py", line 532, in open
+    response = meth(req, response)
+  File "/usr/lib64/python3.6/urllib/request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib64/python3.6/urllib/request.py", line 570, in error
+    return self._call_chain(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 409: Conflict
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telebot.py", line 32, in background
+    for u in self.__api.newUpdates():
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 36, in newUpdates
+    except urllib.error.URLError: raise NetworkError('No Internet Connection')
+telebot.telegram_api.NetworkError: ('N', 'o', ' ', 'I', 'n', 't', 'e', 'r', 'n', 'e', 't', ' ', 'C', 'o', 'n', 'n', 'e', 'c', 't', 'i', 'o', 'n')
+
+WARNING:root:Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 31, in newUpdates
+    r = json.loads(urllib.request.urlopen('%sbot%s/getUpdates?offset=%s'%(url,self.__token,self.__offset)).read().decode('utf-8'))
+  File "/usr/lib64/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib64/python3.6/urllib/request.py", line 532, in open
+    response = meth(req, response)
+  File "/usr/lib64/python3.6/urllib/request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib64/python3.6/urllib/request.py", line 570, in error
+    return self._call_chain(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 409: Conflict
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telebot.py", line 32, in background
+    for u in self.__api.newUpdates():
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 36, in newUpdates
+    except urllib.error.URLError: raise NetworkError('No Internet Connection')
+telebot.telegram_api.NetworkError: ('N', 'o', ' ', 'I', 'n', 't', 'e', 'r', 'n', 'e', 't', ' ', 'C', 'o', 'n', 'n', 'e', 'c', 't', 'i', 'o', 'n')
+
+WARNING:root:Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 31, in newUpdates
+    r = json.loads(urllib.request.urlopen('%sbot%s/getUpdates?offset=%s'%(url,self.__token,self.__offset)).read().decode('utf-8'))
+  File "/usr/lib64/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib64/python3.6/urllib/request.py", line 532, in open
+    response = meth(req, response)
+  File "/usr/lib64/python3.6/urllib/request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib64/python3.6/urllib/request.py", line 570, in error
+    return self._call_chain(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/lib64/python3.6/urllib/request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 409: Conflict
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telebot.py", line 32, in background
+    for u in self.__api.newUpdates():
+  File "/home/jj/git/telegram_bot_lua_game/telebot/telegram_api.py", line 36, in newUpdates
+    except urllib.error.URLError: raise NetworkError('No Internet Connection')
+telebot.telegram_api.NetworkError: ('N', 'o', ' ', 'I', 'n', 't', 'e', 'r', 'n', 'e', 't', ' ', 'C', 'o', 'n', 'n', 'e', 'c', 't', 'i', 'o', 'n')
+
