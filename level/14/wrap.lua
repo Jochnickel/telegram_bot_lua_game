@@ -1,5 +1,5 @@
 print "Theres an easy way here"
-local res = require "Play"
+local res = require "play"
 if ('number'==type(res)) then
 	print(res>0.8401877171547095)
 	print(res==0.8401877171547095)

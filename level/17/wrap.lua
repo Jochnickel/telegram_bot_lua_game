@@ -10,4 +10,4 @@ setmetatable(a,{
 		return "return 22"
 	end
 })
-if (require "Play"(a))==22 then return 18 end
+if (require "play"(a))==22 then return 18 end
