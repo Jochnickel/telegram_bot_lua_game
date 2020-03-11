@@ -45,7 +45,7 @@ def setLevel(bot, userid, lvl = "1", relative = False):
 
 def finishLevel(bot, userid):
 	userid = str(userid)
-	setSolved(bot userid)
+	setSolved(bot, userid)
 	setLevel(bot,userid)
 
 
@@ -72,7 +72,8 @@ def levelExists(bot,lvl):
 		return True
 	except: return False
 
-def cmdSkip(bot, userid, params): pass
+def cmdSkip(bot, userid, params):
+	skipLevel(bot,userid)
 def cmdLevel(bot, userid, params):
 	try:
 		lvl = int(params)
