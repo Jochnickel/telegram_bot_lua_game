@@ -1,10 +1,11 @@
 print 'write "Hello"'
 local p = _G.print
-local r = ""
+local r = "BAD"
 _G.print = function(msg,...)
-	if 'Hello'==msg then return end
+	if 'Hello'==msg then r = "GOOD" end
 	p(msg,...)
 	error("No",2)
 end
 require "play"
-return r
+
+if "BAD"==r then error("No",2) end
