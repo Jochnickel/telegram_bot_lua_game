@@ -5,5 +5,5 @@ _G.print = function(msg,...)
 	if 'Hello'==msg then r = 3 end
 	p(msg,...)
 end
-require "Play"
+require "play"
 return r
